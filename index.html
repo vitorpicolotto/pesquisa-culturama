@@ -15,6 +15,7 @@
             <form action="" method="get">
                 <fieldset>
                     <legend>Dados pessoais</legend>
+
                     <label for="name">Nome </label>
                     <input type="text" name="userName" id="name" required>
                     <br>
@@ -136,6 +137,27 @@
 
                     <label for="favoriteColor">Cor favorita: </label>
                     <input type="color" name="favoriteColor" id="color">
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Opinião</legend>
+
+                    <p>Avalie o nosso serviço:</p>
+                    <input id="bad" type="radio" name="userEvaluation" value="ruim">
+                    <label for="bad">Ruim</label>
+
+                    <input id="regular" type="radio" name="userEvaluation" value="regular">
+                    <label for="regular">Regular</label>
+
+                    <input id="good" type="radio" name="userEvaluation" value="bom">
+                    <label for="good">Bom</label>
+
+                    <input id="great" type="radio" name="userEvaluation" value="otimo">
+                    <label for="great">Ótimo</label>
+
+                    <p>Comentário</p>
+                    <textarea name="userComment" id="comment" placeholder="Digite seu comentário..." ></textarea>
 
                 </fieldset>
 
