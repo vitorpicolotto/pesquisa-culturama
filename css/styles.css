@@ -1,0 +1,12 @@
+:root{
+    --fonte-titulo: 'Fjalla One', sans-serif;
+    --fonte-textos: 'Work Sans', sans-serif
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+}
+
+main{
+    font-family: var(--fonte-textos);
+}
