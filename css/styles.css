@@ -1,12 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --fonte-titulo: 'Fjalla One', sans-serif;
-    --fonte-textos: 'Work Sans', sans-serif
+    --fonte-textos: 'Work Sans', sans-serif;
+    --cor-fundo: #f9f9f9;
+    --cor-formulario: #ffffff;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-textos);
+}
+
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100px;
 }
 
 h1{
     font-family: var(--fonte-titulo);
 }
 
-main{
-    font-family: var(--fonte-textos);
+form{
+    background-color: var(--cor-formulario);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+fieldset{
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+textarea{
+    min-height: 100px ;
+}
+
+input[type="radio"], 
+input[type="checkbox"]{
+    width: auto;
+}
+
+input[type="color"]{
+    width: 40px;
+    padding: 0 5px;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid{
+    border-color: green;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: var(--cor-fundo);
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    color: var(--cor-formulario);
+    background-color: green;
+}
+
+button[type="reset"]:hover{
+    color: var(--cor-formulario);
+    background-color: darkred;
 }
