@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="culturama-favico.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/sucesso.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Culturama - Pesquisa</title>
 </head>
+
 <body>
     <main>
         <header>
@@ -29,7 +32,7 @@
                     <label for="age">Idade </label>
                     <input type="number" name="userAge" min="12" max="100" id="age" required>
                     <br>
-                    
+
                     <label for="birthDate">Data de Nascimento</label>
                     <input type="date" name="userBirthDate" id="birthDate">
                     <br>
@@ -39,7 +42,8 @@
                     <br>
 
                     <label for="phoneNumber">Telefone</label>
-                    <input type="tel" name="userPhoneNumber" id="phoneNumber" pattern="[0-9]{11}" placeholder="DDD + número">
+                    <input type="tel" name="userPhoneNumber" id="phoneNumber" pattern="[0-9]{11}"
+                        placeholder="DDD + número">
                     <br>
 
                     <label for="image">Upload de foto</label>
@@ -122,7 +126,7 @@
                     <input id="facebook" type="checkbox" name="social" value="facebook">
                     <label for="facebook">Facebook</label>
                     <br>
-                        
+
                     <input id="x" type="checkbox" name="social" value="x">
                     <label for="x">X</label>
                     <br>
@@ -132,7 +136,7 @@
                     <br>
 
                     <label for="musicStyle">Estilo musical:</label>
-                    <input id="musicStyle" list="styles" type="text" name="userMusicStyle" >
+                    <input id="musicStyle" list="styles" type="text" name="userMusicStyle">
                     <datalist id="styles">
                         <option value="Rock">
                         <option value="Samba">
@@ -163,7 +167,7 @@
                     <label for="great">Ótimo</label>
 
                     <p>Comentário</p>
-                    <textarea name="userComment" id="comment" placeholder="Digite seu comentário..." ></textarea>
+                    <textarea name="userComment" id="comment" placeholder="Digite seu comentário..."></textarea>
 
                 </fieldset>
 
@@ -187,6 +191,7 @@
             <p>Desenvolvido por Vitor Picolotto</p>
         </footer>
     </main>
-    
+
 </body>
+
 </html>
