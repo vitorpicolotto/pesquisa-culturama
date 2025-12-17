@@ -114,3 +114,8 @@ button[type="reset"]:hover{
     color: var(--cor-formulario);
     background-color: darkred;
 }
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
