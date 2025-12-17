@@ -32,9 +32,9 @@ Após o envio do formulário, o usuário é redirecionado para uma página de ag
 
 Como se trata de um projeto estático, não é necessário instalar dependências.
 
-1. Baixe o projeto para sua máquina.
+1. Clone o projeto para sua máquina.
 2. Navegue até a pasta do projeto.
-3. Clique duas vezes no arquivo `index.html` para abri-lo em seu navegador padrão.
+3. Clique duas vezes no arquivo `index.html` para abri-lo em seu navegador padrão ou utilize a extensão 'Live Server' na sua IDE.
 
 ---
 Desenvolvido como parte de um projeto de pesquisa de opinião.
